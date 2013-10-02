@@ -1,0 +1,15 @@
+{% extends "templates/base.html" %}
+
+{% block title %}leaderboard{% endblock %}
+
+{% block content %}
+
+<ol>
+{% for i in q %}
+<li>
+{{i.name}} has scored {{i.score}} points by solving problems {{i.solved}}
+</li>
+{% endfor %}
+</ol>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "templates/base.html" %}
+
+{% block title %}recent{% endblock %}
+
+{% block content %}
+
+<ol>
+{% for i in q %}
+	<li>{{i.name}} solved problem #{{i.problem}} , result was {{i.result}} at {{i.date}}
+	</li>
+{% endfor %}
+</ol>	
+
+{% endblock %}

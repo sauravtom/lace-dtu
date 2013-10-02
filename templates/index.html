@@ -1,0 +1,21 @@
+{% extends "templates/base.html" %}
+
+
+{% block title %}Index{% endblock %}
+
+
+{% block content %}
+    
+    <h4>Hi {{name}} and welcome to Language Agnostic Coding Event.</h4>
+    <h6>The rules are simple, you just have to solve the 5 problems given <a href='/list'>here</a> in the time limit of 20 hours.
+    Solution to the first problem you solve carries 20 marks, and the rest carries 10 marks.
+    Great glory awaits the winner, and some prizes too.
+    Solutions to all the problems will be made available to you on/after 4th October.
+    </h6>
+    <br>
+
+
+    <a href="/problem?n=0" class="btn btn-primary btn-lg">Start</a>
+    <a href="{{l_url}}" class="btn btn-primary btn-lg pull-right">LOGOUT</a>
+
+{% endblock %}

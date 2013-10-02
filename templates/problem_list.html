@@ -1,0 +1,18 @@
+{% extends "templates/base.html" %}
+
+{% block title %}problem list{% endblock %}
+
+{% block content %}
+
+<ol>
+{% for i in q %}
+<a href='/problem?n={{loop.index-1}}'>
+	<li>
+	{{i[:50]}}
+	</li>
+	<br>
+</a>
+{% endfor %}
+</ol>
+
+{% endblock %}
