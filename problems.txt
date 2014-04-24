@@ -1,0 +1,45 @@
+Sorace Slughorn is teaching potions and asked the class to choose 3 potions a,b anc iff they satisfy the following condition:
+
+<img src='http://i.imgur.com/7XHZJGz.png'>
+
+Now he has given the task to calculate how many triplet potions(a,b,c) they can choose if their maximum quantity(by adding all 3) can be 110,000,000.
+Since Hermione is not present ,Ron and Harry have asked you for your help.
+P.S. : The spell 'Accio Solution’ does not work :P
+
+!*ANS*!
+18946051
+
+!*QUES*!
+Frodo and Sam have to travel to Mordor to destroy the ring. Before travelling they find that it is 251748 miles apart from the Shire, which is double of 125874. They are amazed to find that these 2 numbers have the same digits but in different order.
+Now since its a long way up there, Gandalf suggests them to play a game: he asks him to find the smallest number such that its double, triple, quadruple,quintuple ,and six fold all have the same digits.
+Sadly, frodo and Samwise are not returning back soon, so they asked for your help .
+
+!*ANS*!
+142857
+
+!*QUES*!
+Q3. The Riddler has caught hold of Gordon and poses a riddle to Batman : "Riddle me this,riddle me that, all the numbers less than one million, which are palindromic in base 10 and base 2.,sum all that".Only if he is able to solve the riddle, the Riddler will free Gordon.
+You are a famous mathematician in Gotham. Help the batman, will you?
+
+!*ANS*!
+872187
+
+!*QUES*!
+Master Shifu asked Po to go buy some special ingredient . On the way Po loses some of it. When asked by master Shifu, how many had he bought, he told him that he doesn't remember exactly, but when he had taken them out two at a time, there was one egg left. The same happened when he picked them out three, four, five, and six at a time, but when he took them seven at a time they came out 2. Master Shifu is confused and frustated with Po. Can you help the poor Po?
+
+!*ANS*!
+121
+
+!*QUES*!
+There were 100 contenders to the position of the Minister of Magic. Yet, there were two contenders who deserved the position the most -Albus Dumbledore and Martha Guniby. Yet both of them were contesting unwillingly, and did not want the position much. They couldn’t refuse to step down from the game, as a courtesy to wizarding community. Albus Dumbledore suggested a method, in which the position of the minister of magic could be a rolling one, so that all the 100 candidates got a chance to be the minister for 3 months. 
+They arranged the contestants in a way such that every third person starting from 1 gets to be the Minister, in a cyclic manner. Where should Dumbledore initially place himself and his friend Martha so that they are the last ones to become the Minister? Write the positi­ons of Albus Dumbledore and Martha Guniby. 
+
+!*ANS*!
+10
+
+!*QUES*!
+A young boy of 12 named Joey was in a playful mood. His mother had made him a pie- chocolate pie. He thought to play a game with the pie. Joey thought of a way to eat the entire pie with the throw of a die, a six-faced one, with numbers from 1-6. Suppose if a number n (n lies between 1 and 6) turns up, he will cut a piece equal to 1/n of the pie and eat it. He throws a die again and cuts a piece equal to 1/n of the remaining pie to eat. When will he finally finish eating the entire pie? If Joey gets tired midway and the pie is still not finished even after 11 throws of die, he thinks of eating the entire remaining pie at one go. In how many combinations could Joey have eaten the fraction of pie which he left at the 11th throw of die?
+
+!*ANS*!
+435356520
+
