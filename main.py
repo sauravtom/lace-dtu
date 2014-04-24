@@ -14,10 +14,17 @@ jinja_environment = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.dirname(__file__)),
     extensions=['jinja2.ext.autoescape'])
 
+def strip_non_ascii(string):
+    ''' Returns the string without non ASCII characters'''
+    stripped = (c for c in string if 0 < ord(c) < 127)
+    return ''.join(stripped)
+
 def get_problems():
     text_file = open("problems.txt", "r")
     #text_file.encode('utf-16','ignore')
     arr = text_file.read().split("!*QUES*!")
+    arr = [strip_non_ascii(i) for i in arr]
+    #arr = []
     return arr
 
 problem_arr = get_problems()
@@ -80,6 +87,8 @@ class problem(webapp2.RequestHandler):
     def get(self):
         exist,i = self.get_user()
         n = int(self.request.get('n'))
+        if n > 5:
+            n=-1
         question = problem_arr[n].split('!*ANS*!')[0]
         template = jinja_environment.get_template('templates/problem.html')
         self.response.out.write(template.render(question=question,n=n,name=i.name,score=i.score))
